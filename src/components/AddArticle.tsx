@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-interface Props = {
+interface Props {
   saveArticle: (article: IArticle | any) => void;
 }
 
